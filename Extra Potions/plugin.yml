@@ -1,0 +1,10 @@
+name: ExtraPotions
+version: 0.8
+main: com.webs.kiroscorner.extrapotions.ExtraPotionsMain
+author: Kiro47
+description: An array of different customized potions to add a little spark.
+
+commands:
+  test:
+    usage: /<command>
+    description: nah

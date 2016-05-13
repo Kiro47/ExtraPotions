@@ -1,0 +1,47 @@
+##########################################################
+######################## TEST ############################
+##########################################################
+##### Don't touch this.
+version: 1.0
+##########################################################
+
+CurrencySymbol: $
+FlyPotion:
+  lengthInSeconds: 60
+  safeLanding: false
+  particles: true
+  WorldWhitelist:
+    - Minecraft
+    - Minecraft_Nether
+    - Minecraft_End
+GodPotion:
+  lengthInSeconds: 40
+  particles: true
+  WorldWhitelist:
+    - Minecraft
+    - Minecraft_Nether
+    - Minecraft_End
+NoFallPotion:
+  lengthInSeconds: 40
+  particles: true
+  WorldWhitelist:
+    - Minecraft
+    - Minecraft_Nether
+    - Minecraft_End
+GhostPotion:
+  lengthInSeconds: 40
+  particles: true
+  WorldWhitelist:
+    - Minecraft
+    - Minecraft_Nether
+    - Minecraft_End
+###### Ranged sets it so if something hits them with a projectile they'll also catch on fire. Because Whimsical Magical Timey Wimey Magic.
+FieryAuraPotion:
+  lengthInSeconds: 40
+  particles: true
+  ranged: true
+  burnSeconds: 3
+  WorldWhitelist:
+    - Minecraft
+    - Minecraft_Nether
+    - Minecraft_End
